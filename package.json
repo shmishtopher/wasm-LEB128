@@ -1,0 +1,23 @@
+{
+  "name": "wasm-leb128",
+  "version": "1.0.0",
+  "description": "LEB128 utilities for WebAssembly",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shmishtopher/wasm-LEB128.git"
+  },
+  "keywords": [
+    "wasm",
+    "wasm-codegen",
+    "wasm-bytecode",
+    "webassembly",
+    "leb128"
+  ],
+  "author": "Shmish <shmish90@gmail.com>",
+  "license": "MIT"
+}
