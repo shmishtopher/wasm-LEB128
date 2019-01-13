@@ -23,3 +23,11 @@ export function varuint32 (value) {
     return LEB128_u(value)
   }
 }
+
+export function varuint64 (value) {
+  if (value < 0 || value > 18446744073709551615) {
+    throw new Error(`${value} is not in [0, 18446744073709551615]`)
+  } else {
+    return LEB128_u(value)
+  }
+}
