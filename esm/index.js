@@ -1,6 +1,6 @@
-export { varsint7 } from './varsint'
-export { varsint32 } from './varsint'
-export { varsint64 } from './varsint'
+export { varint7 } from './varsint'
+export { varint32 } from './varsint'
+export { varint64 } from './varsint'
 
 export { varuint1 } from './varuint'
 export { varuint7 } from './varuint'

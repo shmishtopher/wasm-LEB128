@@ -6,9 +6,9 @@ LEB128 utilities for WebAssembly
 ## Included functions
 all function return a new `Uint8ClampedArray`
 ```javascript
-import { varsint7 } from 'wasm-leb128'  // variable length 7 bit signed int
-import { varsint32 } from 'wasm-leb128' // variable length 32 bit signed int
-import { varsint64 } from 'wasm-leb128' // variable length 64 bit signed int
+import { varint7 } from 'wasm-leb128'  // variable length 7 bit signed int
+import { varint32 } from 'wasm-leb128' // variable length 32 bit signed int
+import { varint64 } from 'wasm-leb128' // variable length 64 bit signed int
 
 import { varuint1 } from 'wasm-leb128'  // variable length 1 bit unsigned int
 import { varuint7 } from 'wasm-leb128'  // variable length 7 bit unsigned int
