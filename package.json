@@ -1,5 +1,6 @@
 {
   "name": "wasm-leb128",
+  "private": false,
   "version": "1.0.0",
   "description": "LEB128 utilities for WebAssembly",
   "main": "lib/index.js",
